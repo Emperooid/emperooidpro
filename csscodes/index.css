@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+}
+
+.header {
+  display: flex;
+  background-color: rgba(3, 3, 7, 0.926);
+  justify-content: space-between;
+  top: 0;
+}
+.header-1 {
+  display: flex;
+  padding: 20px;
+  font-size: 13px;
+}
+.header-1-a {
+  padding-right: 40px;
+}
+.header-1-a a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-1-a:hover {
+  text-decoration: line-through;
+}
+.header-1-b {
+  padding-right: 40px;
+}
+.header-1-b a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-1-b:hover {
+  text-decoration: line-through;
+}
+.header-3 {
+  display: flex;
+  padding: 20px;
+  font-size: 13px;
+}
+.header-3-a {
+  padding-right: 40px;
+}
+.header-3-a a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-3-a:hover {
+  color: #130101d2;
+  font-size: 15px;
+}
+.header-3-b {
+  padding-right: 40px;
+}
+.header-3-b a {
+  text-decoration: none;
+  color: #fff;
+}
+.header-3-b:hover {
+  color: #130101d2;
+  font-size: 15px;
+}
+.section-1 {
+  background-color: rgb(4, 4, 6);
+  display: flex;
+  align-items: center;
+  top: 0;
+}
+.navigation {
+  padding-left: 50px;
+  padding-right: 300px;
+}
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+}
+.navigation li {
+  padding: 30px;
+}
+.navigation ul li a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.navigation ul li a:hover {
+  text-decoration: solid 1px;
+  font-size: 20px;
+  color: rgba(139, 132, 132, 0.556);
+}
+.toogle {
+  font-weight: 600;
+}
+.toogle a {
+  text-decoration: none;
+  color: #fff;
+}
+.toogle a:hover {
+  text-decoration: solid 1px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: rgba(97, 97, 219, 0.625);
+  font-size: 20px;
+}
